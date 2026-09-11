@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="assets/banner.jpg" alt="LegitBooster Banner">
+</div>
+
 <h1 align="center">LegitBooster</h1>
 
 <div align="center">
@@ -27,6 +31,8 @@
   - Sunucuya rastgele dönüş (rotation) ve animasyon paketleri gönderir. Sen oyunu normal oynarken dışarıdan delicesine dönüyormuş gibi görünürsün!
 - **🦅 Freecam (Geliştirme Aşamasında)**
   - Kameranı oyuncu karakterinden ayırıp serbestçe uçarak etrafı keşfetmeni sağlar.
+
+*Tüm modüllerin ne işe yaradığı ve detaylı ayarlarının nasıl yapıldığı hakkında bilgi için [Resmi Wiki Sayfası](WIKI.md)'na göz atın!*
 
 ## 🚀 Kurulum
 

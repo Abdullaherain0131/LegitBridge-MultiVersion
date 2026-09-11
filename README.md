@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="assets/banner.jpg" alt="LegitBooster Banner">
+</div>
+
 <h1 align="center">LegitBooster</h1>
 
 <div align="center">
@@ -27,6 +31,8 @@
   - Send spoofed rotation and animation packets to the server. Spin wildly for others while playing normally!
 - **🦅 Freecam (Work in Progress)**
   - Detach your camera from your player to look around corners and explore freely.
+
+*For detailed information on how every module works, check out the [Official Wiki](WIKI.md)!*
 
 ## 🚀 Installation
 
