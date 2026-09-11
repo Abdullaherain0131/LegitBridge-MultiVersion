@@ -4,6 +4,14 @@
 
 <h1 align="center">LegitBooster</h1>
 
+<p align="center">
+  <a href="README.md">🇺🇸 English</a> | <a href="README-tr.md">🇹🇷 Türkçe</a> | <a href="WIKI.md">📖 Wiki</a>
+</p>
+
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=2196F3&center=true&vCenter=true&width=435&lines=Undetectable+Fabric+Mod;Maximize+FPS;Enhance+Performance;Legit+%26+Advanced" alt="Typing SVG" />
+</div>
+
 <div align="center">
   <img src="https://img.shields.io/badge/Minecraft-1.16.5%20%7C%201.20.1-brightgreen?logo=minecraft" alt="Minecraft Version">
   <img src="https://img.shields.io/badge/API-Fabric-orange" alt="Fabric">

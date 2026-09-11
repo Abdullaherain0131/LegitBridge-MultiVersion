@@ -29,13 +29,9 @@ jobs:
     - name: Build 1.16.5
       run: ./gradlew :1.16.5:build
 
-    - name: Build 1.20.1
-      run: ./gradlew :1.20.1:build
-
     - name: Release
       uses: softprops/action-gh-release@v1
       with:
         files: |
           versions/1.16.5/build/libs/legitbooster-*.jar
-          versions/1.20.1/build/libs/legitbooster-*.jar
         generate_release_notes: true
