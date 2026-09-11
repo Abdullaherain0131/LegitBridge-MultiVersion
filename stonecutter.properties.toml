@@ -1,6 +1,6 @@
 # See https://stonecutter.kikugie.dev/wiki/config/properties#centralized-properties
-mod.id = "legitbridge"
-mod.name = "LegitBridge"
+mod.id = "legitbooster"
+mod.name = "LegitBooster"
 mod.group = "com.ersin"
 mod.version = "7.0.0"
 

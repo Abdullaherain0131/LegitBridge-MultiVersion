@@ -26,7 +26,7 @@ public class MixinEntity {
 
     @Inject(method = "isGlowing", at = @At("HEAD"), cancellable = true)
     private void onIsGlowing(CallbackInfoReturnable<Boolean> cir) {
-        com.ersin.legitbridge.module.impl.PlayerESP esp = (com.ersin.legitbridge.module.impl.PlayerESP) com.ersin.legitbridge.LegitBridgeMod.moduleManager.getModuleByName("PlayerESP");
+        com.ersin.legitbridge.module.impl.PlayerESP esp = (com.ersin.legitbridge.module.impl.PlayerESP) com.ersin.legitbridge.LegitBoosterMod.moduleManager.getModuleByName("PlayerESP");
         if (esp != null && esp.isEnabled()) {
             if ((Object) this instanceof net.minecraft.entity.player.PlayerEntity) {
                 cir.setReturnValue(true);

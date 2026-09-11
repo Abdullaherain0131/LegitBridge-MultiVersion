@@ -8,12 +8,12 @@
     "Abdullah Asım Ersin"
   ],
   "contact": {},
-  "license": "MIT",
+  "license": "CC0",
   "icon": "assets/legitbridge/icon.png",
   "environment": "client",
   "entrypoints": {
     "client": [
-      "com.ersin.legitbridge.LegitBridgeMod"
+      "com.ersin.legitbridge.LegitBoosterMod"
     ]
   },
   "mixins": [

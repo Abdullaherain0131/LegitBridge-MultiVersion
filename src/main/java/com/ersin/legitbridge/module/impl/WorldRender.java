@@ -26,7 +26,7 @@ import org.joml.Matrix4f;
 //?}
 import com.ersin.legitbridge.module.Module;
 import com.ersin.legitbridge.module.Category;
-import com.ersin.legitbridge.LegitBridgeMod;
+import com.ersin.legitbridge.LegitBoosterMod;
 import com.ersin.legitbridge.module.impl.StructureFinder;
 import com.ersin.legitbridge.module.impl.Waypoints;
 import net.minecraft.entity.mob.CreeperEntity;
@@ -399,7 +399,7 @@ matrixStack.peek().getPositionMatrix()
     }
 
     private void renderStructures(MinecraftClient client, MatrixStack matrixStack) {
-        StructureFinder finder = (StructureFinder) LegitBridgeMod.moduleManager.getModuleByName("StructureFinder");
+        StructureFinder finder = (StructureFinder) LegitBoosterMod.moduleManager.getModuleByName("StructureFinder");
         if (finder == null || finder.foundStructures.isEmpty()) return;
 
         Vec3d start = client.player.getCameraPosVec(1.0f);

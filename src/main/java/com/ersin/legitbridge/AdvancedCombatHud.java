@@ -1,7 +1,7 @@
 package com.ersin.legitbridge;
 
 import com.ersin.legitbridge.config.ModConfig;
-import com.ersin.legitbridge.LegitBridgeMod;
+import com.ersin.legitbridge.LegitBoosterMod;
 import com.ersin.legitbridge.module.impl.Dodge;
 import com.ersin.legitbridge.mixin.ClientPlayerInteractionManagerAccessor;
 import net.minecraft.client.MinecraftClient;
@@ -259,7 +259,7 @@ public class AdvancedCombatHud {
 
                     // Signal Dodge Module
                     if (ModConfig.autoDodge || ModConfig.autoBlockDefense) {
-                        Dodge dodge = (Dodge) LegitBridgeMod.moduleManager.getModuleByName("Dodge");
+                        Dodge dodge = (Dodge) LegitBoosterMod.moduleManager.getModuleByName("Dodge");
                         if (dodge != null) dodge.setPendingProjectile(toProj, incomingFront);
                     }
                 }
@@ -267,7 +267,7 @@ public class AdvancedCombatHud {
         }
         
         if (!incomingFront && !incomingLeft && !incomingRight) {
-            Dodge dodge = (Dodge) LegitBridgeMod.moduleManager.getModuleByName("Dodge");
+            Dodge dodge = (Dodge) LegitBoosterMod.moduleManager.getModuleByName("Dodge");
             if (dodge != null) dodge.resetDetection();
         }
         

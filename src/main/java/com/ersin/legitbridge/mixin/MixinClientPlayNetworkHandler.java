@@ -1,6 +1,6 @@
 package com.ersin.legitbridge.mixin;
 
-import com.ersin.legitbridge.LegitBridgeMod;
+import com.ersin.legitbridge.LegitBoosterMod;
 import com.ersin.legitbridge.module.impl.Velocity;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.network.ClientPlayNetworkHandler;
@@ -19,7 +19,7 @@ public class MixinClientPlayNetworkHandler {
 
     @Inject(method = "onVelocityUpdate", at = @At("HEAD"), cancellable = true)
     private void onVelocityUpdate(EntityVelocityUpdateS2CPacket packet, CallbackInfo ci) {
-        Velocity velocityModule = (Velocity) LegitBridgeMod.moduleManager.getModuleByName("Velocity");
+        Velocity velocityModule = (Velocity) LegitBoosterMod.moduleManager.getModuleByName("Velocity");
         if (velocityModule != null && velocityModule.isEnabled()) {
             //? if >1.19.2 {
             if (client.player != null && packet.getId() == client.player.getId()) {
@@ -40,7 +40,7 @@ public class MixinClientPlayNetworkHandler {
 
     @Inject(method = "onExplosion", at = @At("HEAD"), cancellable = true)
     private void onExplosion(ExplosionS2CPacket packet, CallbackInfo ci) {
-        Velocity velocityModule = (Velocity) LegitBridgeMod.moduleManager.getModuleByName("Velocity");
+        Velocity velocityModule = (Velocity) LegitBoosterMod.moduleManager.getModuleByName("Velocity");
         if (velocityModule != null && velocityModule.isEnabled()) {
             if (Velocity.horizontal == 0.0 && Velocity.vertical == 0.0) {
                 // If 0% knockback, we can just let it process but we'd need to modify the packet's player velocity values

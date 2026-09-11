@@ -16,8 +16,8 @@ import com.ersin.legitbridge.helpers.InventoryMouseMover;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-public class LegitBridgeMod implements ClientModInitializer {
-    public static final String MOD_ID = "legitbridge";
+public class LegitBoosterMod implements ClientModInitializer {
+    public static final String MOD_ID = "legitbooster";
     public static final Logger LOGGER = LogManager.getLogger(MOD_ID);
     private static KeyBinding toggleKey;
     private static KeyBinding menuKey;
@@ -27,7 +27,7 @@ public class LegitBridgeMod implements ClientModInitializer {
 
     @Override
     public void onInitializeClient() {
-        LOGGER.info("LegitBridge mod initialized! Ultimate Edition");
+        System.out.println("LegitBooster Mod başlatıldı!");
         
         moduleManager = new ModuleManager();
         registerModules();
@@ -164,6 +164,7 @@ client.player.sendMessage(com.ersin.legitbridge.utils.VersionHelper.literalText(
         moduleManager.registerModule(new LegitChestStealer());
         moduleManager.registerModule(new AutoRefill());
         moduleManager.registerModule(new LegitAutoClicker());
+        moduleManager.registerModule(new AutoSprint());
         moduleManager.registerModule(new SmartESP());
         moduleManager.registerModule(new BlockOverlay());
         moduleManager.registerModule(new StreamerMode());

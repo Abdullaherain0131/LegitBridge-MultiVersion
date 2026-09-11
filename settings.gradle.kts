@@ -28,4 +28,4 @@ stonecutter {
     }
 }
 
-rootProject.name = "LegitBridge-MultiVersion"
+rootProject.name = "LegitBooster-MultiVersion"

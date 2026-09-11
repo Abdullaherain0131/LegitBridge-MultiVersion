@@ -1,7 +1,7 @@
 package com.ersin.legitbridge.mixin;
 
 import com.ersin.legitbridge.config.ModConfig;
-import com.ersin.legitbridge.LegitBridgeMod;
+import com.ersin.legitbridge.LegitBoosterMod;
 import com.ersin.legitbridge.module.impl.Freecam;
 import net.minecraft.network.ClientConnection;
 //? if <=1.19.2 {
@@ -19,16 +19,16 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 public class MixinClientConnection {
     @Inject(method = "send(Lnet/minecraft/network/Packet;)V", at = @At("HEAD"), cancellable = true)
     private void onSendPacket(Packet<?> packet, CallbackInfo ci) {
-        if (LegitBridgeMod.moduleManager == null) return;
+        if (LegitBoosterMod.moduleManager == null) return;
         
-        Freecam freecam = (Freecam) LegitBridgeMod.moduleManager.getModuleByName("Freecam");
+        Freecam freecam = (Freecam) LegitBoosterMod.moduleManager.getModuleByName("Freecam");
         if (freecam != null && freecam.isEnabled() && packet instanceof PlayerMoveC2SPacket) {
             ci.cancel();
             return;
         }
         
         // Derp modifies the packet values (or cancels and sends a new one)
-        com.ersin.legitbridge.module.impl.Derp derp = (com.ersin.legitbridge.module.impl.Derp) LegitBridgeMod.moduleManager.getModuleByName("Derp");
+        com.ersin.legitbridge.module.impl.Derp derp = (com.ersin.legitbridge.module.impl.Derp) LegitBoosterMod.moduleManager.getModuleByName("Derp");
         if (derp != null && derp.isEnabled()) {
             if (derp.onSendPacket(packet)) {
                 ci.cancel();
@@ -37,7 +37,7 @@ public class MixinClientConnection {
         }
 
         // FakeLag buffers the packet
-        com.ersin.legitbridge.module.impl.FakeLag fakeLag = (com.ersin.legitbridge.module.impl.FakeLag) LegitBridgeMod.moduleManager.getModuleByName("FakeLag");
+        com.ersin.legitbridge.module.impl.FakeLag fakeLag = (com.ersin.legitbridge.module.impl.FakeLag) LegitBoosterMod.moduleManager.getModuleByName("FakeLag");
         if (fakeLag != null && fakeLag.isEnabled()) {
             if (fakeLag.onSendPacket(packet, (ClientConnection) (Object) this)) {
                 ci.cancel();

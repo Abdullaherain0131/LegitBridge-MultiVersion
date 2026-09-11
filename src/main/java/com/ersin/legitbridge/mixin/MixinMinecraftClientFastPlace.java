@@ -1,7 +1,7 @@
 package com.ersin.legitbridge.mixin;
 
 import com.ersin.legitbridge.Humanizer;
-import com.ersin.legitbridge.LegitBridgeMod;
+import com.ersin.legitbridge.LegitBoosterMod;
 import com.ersin.legitbridge.module.impl.JumpBridge;
 import com.ersin.legitbridge.module.impl.SlotRotation;
 import com.ersin.legitbridge.config.ModConfig;
@@ -48,11 +48,11 @@ public abstract class MixinMinecraftClientFastPlace {
                 if (!this.player.getMainHandStack().isEmpty() || !this.player.getOffHandStack().isEmpty()) {
                     
                     // JumpBridge Zıplayarak Merdiven Tipi Yol Yapma Desteği
-                    JumpBridge jumpBridge = (JumpBridge) LegitBridgeMod.moduleManager.getModuleByName("JumpBridge");
+                    JumpBridge jumpBridge = (JumpBridge) LegitBoosterMod.moduleManager.getModuleByName("JumpBridge");
                     if (jumpBridge != null && jumpBridge.shouldInstantPlaceOnJump(client)) {
                         this.itemUseCooldown = 0; // Zıplamanın zirve noktasında ayağın altına anında koy
                         
-                        SlotRotation slotRotation = (SlotRotation) LegitBridgeMod.moduleManager.getModuleByName("SlotRotation");
+                        SlotRotation slotRotation = (SlotRotation) LegitBoosterMod.moduleManager.getModuleByName("SlotRotation");
                         if (slotRotation != null) slotRotation.onBlockPlaced(client);
                         
                         com.ersin.legitbridge.SessionTracker.onBlockPlaced();
@@ -66,7 +66,7 @@ public abstract class MixinMinecraftClientFastPlace {
                         this.itemUseCooldown = Humanizer.getGaussianDelay(ModConfig.minDelayTick, ModConfig.maxDelayTick);
                         
                         // Slot Rotasyonu Asistanını Tetikle
-                        SlotRotation slotRotation = (SlotRotation) LegitBridgeMod.moduleManager.getModuleByName("SlotRotation");
+                        SlotRotation slotRotation = (SlotRotation) LegitBoosterMod.moduleManager.getModuleByName("SlotRotation");
                         if (slotRotation != null) slotRotation.onBlockPlaced(client);
                         
                         com.ersin.legitbridge.SessionTracker.onBlockPlaced();

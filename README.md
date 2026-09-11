@@ -1,13 +1,13 @@
-<h1 align="center">LegitBridge</h1>
+<h1 align="center">LegitBooster</h1>
 
 <div align="center">
   <img src="https://img.shields.io/badge/Minecraft-1.16.5%20%7C%201.20.1-brightgreen?logo=minecraft" alt="Minecraft Version">
   <img src="https://img.shields.io/badge/API-Fabric-orange" alt="Fabric">
-  <img src="https://img.shields.io/github/license/Abdullaherain0131/LegitBridge-MultiVersion" alt="License">
+  <img src="https://img.shields.io/github/license/Abdullaherain0131/LegitBooster-MultiVersion" alt="License">
 </div>
 
 <p align="center">
-  <strong>LegitBridge</strong> is a modern, undetectable multi-version Fabric mod designed to enhance your gameplay with legit mechanics and helpful utilities. Say goodbye to manual souping and tedious interactions.
+  <strong>LegitBooster</strong> is a modern, undetectable multi-version Fabric mod designed to enhance your gameplay with legit mechanics and helpful utilities. Say goodbye to manual souping and tedious interactions.
 </p>
 
 ## ✨ Features
@@ -31,7 +31,7 @@
 ## 🚀 Installation
 
 1. Install [Fabric Loader](https://fabricmc.net/use/) for Minecraft `1.16.5` or `1.20.1`.
-2. Download the latest `LegitBridge` `.jar` from the [Releases](#) tab (or build it yourself!).
+2. Download the latest `LegitBooster` `.jar` from the [Releases](#) tab (or build it yourself!).
 3. Drop the `.jar` into your `.minecraft/mods` folder.
 4. Launch the game and access the mod configuration menu!
 
@@ -42,8 +42,8 @@
 This project uses [Stonecutter](https://stonecutter.kikugie.dev/) to support multiple Minecraft versions from a single codebase!
 
 ```bash
-git clone https://github.com/Abdullaherain0131/LegitBridge-MultiVersion.git
-cd LegitBridge-MultiVersion
+git clone https://github.com/Abdullaherain0131/LegitBooster-MultiVersion.git
+cd LegitBooster-MultiVersion
 # Build for 1.16.5
 ./gradlew :1.16.5:build
 # Or build for 1.20.1
