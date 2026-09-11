@@ -1,0 +1,684 @@
+Reusing configuration cache.
+> Task :1.20.1:stonecutterPrepareTest UP-TO-DATE
+> Task :1.20.1:stonecutterMergeTest NO-SOURCE
+
+> Task :1.20.1:stonecutterPrepare FAILED
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/AdvancedCombatHud.java:78:5 Mismatched input '.'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/AdvancedCombatHud.java:191:5 Mismatched input '.'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/AdvancedCombatHud.java:238:5 Mismatched input '.'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/AdvancedCombatHud.java:259:5 Mismatched input '.'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/helpers/AutoTotemHelper.java:46:5 Mismatched input '/'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/helpers/AutoTotemHelper.java:42:105 ~
+[41m[97mRoses are red[0m; [46m[97mViolets are blue[0m; Unclosed scope on line 42
+> Missing closing `?}` comment.
+- Docs: https://stonecutter.kikugie.dev/wiki/config/params#closed
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/mixin/MixinEntitySafeWalk.java:27:5 Mismatched input '.'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/mixin/MixinEntitySafeWalk.java:42:5 ~
+[41m[97mRoses are red[0m; [46m[97mViolets are blue[0m; Mismatched input '.' on line 42
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/mixin/MixinEntitySafeWalk.java:52:12 ~
+[41m[97mRoses are red[0m; [46m[97mViolets are blue[0m; Mismatched input 'f' on line 52
+> Expected tokens: [<comment end>, number, version comparator, '.', '-', '+', '{', '>>', '&&', '||']
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/mixin/MixinMinecraftClientFastClick.java:28:5 Mismatched input '.'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/mixin/MixinMinecraftClientFastClick.java:34:5 Mismatched input '.'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/mixin/MixinMinecraftClientFastPlace.java:34:5 Mismatched input '.'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/mixin/MixinMinecraftClientFastPlace.java:40:5 Mismatched input '.'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoArmor.java:56:5 Mismatched input '/'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoArmor.java:52:87 ~
+[41m[97mRoses are red[0m; [46m[97mViolets are blue[0m; Unclosed scope on line 52
+> Missing closing `?}` comment.
+- Docs: https://stonecutter.kikugie.dev/wiki/config/params#closed
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/ModHudRenderer.java:116:5 Mismatched input '/'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoBuilder.java:33:5 Mismatched input '.'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/ModHudRenderer.java:112:95 Unclosed scope
+> Missing closing `?}` comment.
+- Docs: https://stonecutter.kikugie.dev/wiki/config/params#closed
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoBlockDefense.java:73:5 Mismatched input '/'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoBlockDefense.java:69:106 Unclosed scope
+> Missing closing `?}` comment.
+- Docs: https://stonecutter.kikugie.dev/wiki/config/params#closed
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoBuilder.java:39:5 Mismatched input '.'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoEat.java:39:5 Mismatched input '.'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoPot.java:46:5 Extraneous input ';'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoEat.java:45:5 Mismatched input '.'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoEat.java:63:5 Mismatched input '.'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoPot.java:81:5 Mismatched input '/'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoPot.java:77:87 Unclosed scope
+> Missing closing `?}` comment.
+- Docs: https://stonecutter.kikugie.dev/wiki/config/params#closed
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoMlg.java:65:5 Mismatched input '/'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoMlg.java:61:73 Unclosed scope
+> Missing closing `?}` comment.
+- Docs: https://stonecutter.kikugie.dev/wiki/config/params#closed
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoElytra.java:73:5 Mismatched input '.'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoRefill.java:40:5 Mismatched input '/'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoRefill.java:36:93 Unclosed scope
+> Missing closing `?}` comment.
+- Docs: https://stonecutter.kikugie.dev/wiki/config/params#closed
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoEat.java:69:5 Mismatched input '.'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoEat.java:81:5 Mismatched input '.'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoTool.java:33:5 Mismatched input '/'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoSupply.java:45:5 Mismatched input '/'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoEat.java:87:5 Mismatched input '.'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoSupply.java:41:93 Unclosed scope
+> Missing closing `?}` comment.
+- Docs: https://stonecutter.kikugie.dev/wiki/config/params#closed
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoEat.java:105:5 Mismatched input '/'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoEat.java:101:87 Unclosed scope
+> Missing closing `?}` comment.
+- Docs: https://stonecutter.kikugie.dev/wiki/config/params#closed
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoShield.java:61:5 Mismatched input '.'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoTotemModule.java:57:5 Mismatched input '/'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoShield.java:67:5 Mismatched input '.'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoTotemModule.java:53:105 Unclosed scope
+> Missing closing `?}` comment.
+- Docs: https://stonecutter.kikugie.dev/wiki/config/params#closed
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoShield.java:91:5 Mismatched input '.'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoTool.java:39:5 Mismatched input '/'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoWeapon.java:29:5 Mismatched input '.'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoTool.java:47:5 Mismatched input '.'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoWeapon.java:35:5 Mismatched input '.'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoWeapon.java:57:5 Mismatched input '/'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoWeapon.java:53:87 Unclosed scope
+> Missing closing `?}` comment.
+- Docs: https://stonecutter.kikugie.dev/wiki/config/params#closed
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoShield.java:97:5 Mismatched input '.'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/BowAimbot.java:82:5 ~
+[41m[97mRoses are red[0m; [46m[97mViolets are blue[0m; Mismatched input ')' on line 82
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/BowAimbot.java:91:5 Extraneous input ';'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/BowAimbot.java:102:6 ~
+[41m[97mRoses are red[0m; [46m[97mViolets are blue[0m; Mismatched input '+' on line 102
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/BowAimbot.java:111:6 Mismatched input '+'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoTool.java:53:5 Mismatched input '.'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/Dodge.java:73:5 Mismatched input '.'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/Dodge.java:83:5 Mismatched input '.'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/Dodge.java:93:5 Extraneous input ';'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/DurabilityWarning.java:43:5 Mismatched input '/'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoTool.java:68:5 Mismatched input '.'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/DurabilityWarning.java:76:5 Mismatched input '/'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoTool.java:35:113 Unclosed scope
+> Missing closing `?}` comment.
+- Docs: https://stonecutter.kikugie.dev/wiki/config/params#closed
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoTool.java:28:25 Unclosed scope
+> Missing closing `?}` comment.
+- Docs: https://stonecutter.kikugie.dev/wiki/config/params#closed
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/DurabilityWarning.java:72:87 ~
+[41m[97mRoses are red[0m; [46m[97mViolets are blue[0m; Unclosed scope on line 72
+> Missing closing `?}` comment.
+- Docs: https://stonecutter.kikugie.dev/wiki/config/params#closed
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/DurabilityWarning.java:39:92 Unclosed scope
+> Missing closing `?}` comment.
+- Docs: https://stonecutter.kikugie.dev/wiki/config/params#closed
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/CombatAssist.java:38:5 Mismatched input '.'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/FireballAssist.java:34:5 Mismatched input '.'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/FireballAssist.java:40:5 Mismatched input '.'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/FireballAssist.java:64:5 Extraneous input ';'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/FireballAssist.java:77:6 Mismatched input '+'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/FakeLag.java:11:17 Unclosed scope
+> Missing closing `?}` comment.
+- Docs: https://stonecutter.kikugie.dev/wiki/config/params#closed
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/CombatAssist.java:44:5 Mismatched input '.'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/CombatAssist.java:51:5 Mismatched input '.'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/Freecam.java:41:5 Extraneous input ';'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/Freecam.java:50:5 Extraneous input ';'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/Freecam.java:59:5 Mismatched input '/'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/Freecam.java:55:102 Unclosed scope
+> Missing closing `?}` comment.
+- Docs: https://stonecutter.kikugie.dev/wiki/config/params#closed
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/CombatAssist.java:57:5 Mismatched input '.'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/InstaHouse.java:38:5 Mismatched input '.'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/InstaHouse.java:44:5 Mismatched input '.'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/InstaHouse.java:46:3 Unmatched scope closer
+> The definition must have a corresponding `? ... {` opener.
+- Hint: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/InstaHouse.java:44:38
+  may need to end with `{`.
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/InstaHouse.java:48:5 Mismatched input '.'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/InvMove.java:41:5 Extraneous input ','
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/Killaura.java:149:5 Mismatched input ')'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/Killaura.java:158:5 Extraneous input ';'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/CombatAssist.java:156:5 Mismatched input ')'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/Killaura.java:170:6 Mismatched input '+'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/CombatAssist.java:165:5 Extraneous input ';'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/Killaura.java:179:6 Mismatched input '+'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/CombatAssist.java:193:6 Mismatched input '+'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/InvMove.java:47:5 Extraneous input ','
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitAutoClicker.java:33:5 Mismatched input '.'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/InvMove.java:52:5 ~
+[41m[97mRoses are red[0m; [46m[97mViolets are blue[0m; Extraneous input ',' on line 52
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitAutoClicker.java:39:5 Mismatched input '.'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/InvMove.java:57:5 Extraneous input ','
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/InvMove.java:65:5 Extraneous input ','
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitAutoClicker.java:92:5 ~
+[41m[97mRoses are red[0m; [46m[97mViolets are blue[0m; Mismatched input '.' on line 92
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitAutoClicker.java:98:5 Mismatched input '.'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitAutoClicker.java:108:5 Mismatched input '.'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/CombatAssist.java:200:6 Mismatched input '+'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitAutoClicker.java:114:5 Mismatched input '.'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LavaEvader.java:51:5 Mismatched input '/'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LavaEvader.java:47:73 Unclosed scope
+> Missing closing `?}` comment.
+- Docs: https://stonecutter.kikugie.dev/wiki/config/params#closed
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitWTap.java:33:5 Mismatched input '.'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitScaffold.java:28:5 Mismatched input '.'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitWTap.java:39:5 Mismatched input '.'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitWTap.java:70:5 Mismatched input '.'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitAutoRod.java:79:5 Mismatched input '/'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitAutoRod.java:75:73 Unclosed scope
+> Missing closing `?}` comment.
+- Docs: https://stonecutter.kikugie.dev/wiki/config/params#closed
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitAutoPot.java:45:5 Extraneous input ';'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitScaffold.java:47:5 Mismatched input '.'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitScaffold.java:63:5 Mismatched input '.'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/NinjaBridge.java:32:5 ~
+[41m[97mRoses are red[0m; [46m[97mViolets are blue[0m; Mismatched input '.' on line 32
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitScaffold.java:78:5 Mismatched input '.'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitScaffold.java:80:3 Unmatched scope closer
+> The definition must have a corresponding `? ... {` opener.
+- Hint: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitScaffold.java:78:38
+  may need to end with `{`.
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitScaffold.java:82:5 ~
+[41m[97mRoses are red[0m; [46m[97mViolets are blue[0m; Mismatched input '.' on line 82
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitScaffold.java:84:3 Unmatched scope closer
+> The definition must have a corresponding `? ... {` opener.
+- Hint: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitScaffold.java:82:38
+  may need to end with `{`.
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitScaffold.java:86:5 Mismatched input '.'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitAutoPot.java:72:12 ~
+[41m[97mRoses are red[0m; [46m[97mViolets are blue[0m; Mismatched input 'f' on line 72
+> Expected tokens: [<comment end>, number, version comparator, '.', '-', '+', '{', '>>', '&&', '||']
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitScaffold.java:97:5 Mismatched input '.'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/NinjaBridge.java:48:12 Mismatched input 'f'
+> Expected tokens: [<comment end>, number, version comparator, '.', '-', '+', '{', '>>', '&&', '||']
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitAutoPot.java:81:6 Mismatched input '+'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/NinjaBridge.java:58:5 Mismatched input '.'
+> Expected tokens: [<comment end>, number, version comparator, '{', '>>', '&&', '||']
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/NinjaBridge.java:79:5 Mismatched input '.'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitScaffold.java:117:12 Mismatched input 'f'
+> Expected tokens: [<comment end>, number, version comparator, '.', '-', '+', '{', '>>', '&&', '||']
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitScaffold.java:127:5 Mismatched input '.'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/NinjaBridge.java:104:5 Mismatched input ')'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/NinjaBridge.java:114:5 Mismatched input '.'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitScaffold.java:146:5 Mismatched input '.'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitScaffold.java:160:5 Mismatched input '.'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitAutoPot.java:115:6 Mismatched input '-'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/NinjaBridge.java:133:5 Mismatched input '.'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/NinjaBridge.java:142:5 ~
+[41m[97mRoses are red[0m; [46m[97mViolets are blue[0m; Mismatched input '.' on line 142
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitAutoPot.java:131:5 Mismatched input '/'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/NinjaBridge.java:164:5 Mismatched input '.'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitAutoPot.java:163:5 Mismatched input '/'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitAutoPot.java:177:5 Mismatched input '/'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitAutoPot.java:173:87 Unclosed scope
+> Missing closing `?}` comment.
+- Docs: https://stonecutter.kikugie.dev/wiki/config/params#closed
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitAutoPot.java:159:87 Unclosed scope
+> Missing closing `?}` comment.
+- Docs: https://stonecutter.kikugie.dev/wiki/config/params#closed
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitAutoPot.java:127:90 Unclosed scope
+> Missing closing `?}` comment.
+- Docs: https://stonecutter.kikugie.dev/wiki/config/params#closed
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/PerfectCrit.java:25:5 Mismatched input '.'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/PerfectCrit.java:31:5 Mismatched input '.'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/SlotRotation.java:40:5 Mismatched input '/'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/SmartTorch.java:63:5 Mismatched input '/'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/SmartTorch.java:59:73 Unclosed scope
+> Missing closing `?}` comment.
+- Docs: https://stonecutter.kikugie.dev/wiki/config/params#closed
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/SlotRotation.java:46:5 Mismatched input '/'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/SlotRotation.java:35:25 Unclosed scope
+> Missing closing `?}` comment.
+- Docs: https://stonecutter.kikugie.dev/wiki/config/params#closed
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/WorldRender.java:66:5 Mismatched input '.'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/WorldRender.java:74:5 Mismatched input '.'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/utils/PlayerUtils.java:15:5 Extraneous input ';'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/WorldRender.java:181:5 Extraneous input ';'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/WorldRender.java:190:5 Extraneous input ';'
+> Expected tokens: [<comment end>]
+
+e: file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/WorldRender.java:333:5 Extraneous input ';'
+> Expected tokens: [<comment end>]
+
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':1.20.1:stonecutterPrepare' (registered by plugin class 'dev.kikugie.stonecutter.StonecutterPlugin').
+> File processing failed; see logs for more details.
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/AdvancedCombatHud.java:78:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/AdvancedCombatHud.java:191:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/AdvancedCombatHud.java:238:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/AdvancedCombatHud.java:259:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/helpers/AutoTotemHelper.java:46:5 Mismatched input '/'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/helpers/AutoTotemHelper.java:42:105 Unclosed scope
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/mixin/MixinEntitySafeWalk.java:27:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/mixin/MixinEntitySafeWalk.java:42:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/mixin/MixinEntitySafeWalk.java:52:12 Mismatched input 'f'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/mixin/MixinMinecraftClientFastClick.java:28:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/mixin/MixinMinecraftClientFastClick.java:34:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/mixin/MixinMinecraftClientFastPlace.java:34:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/mixin/MixinMinecraftClientFastPlace.java:40:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoArmor.java:56:5 Mismatched input '/'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoArmor.java:52:87 Unclosed scope
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/ModHudRenderer.java:116:5 Mismatched input '/'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoBuilder.java:33:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/ModHudRenderer.java:112:95 Unclosed scope
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoBlockDefense.java:73:5 Mismatched input '/'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoBlockDefense.java:69:106 Unclosed scope
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoBuilder.java:39:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoEat.java:39:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoPot.java:46:5 Extraneous input ';'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoEat.java:45:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoEat.java:63:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoPot.java:81:5 Mismatched input '/'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoPot.java:77:87 Unclosed scope
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoMlg.java:65:5 Mismatched input '/'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoMlg.java:61:73 Unclosed scope
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoElytra.java:73:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoRefill.java:40:5 Mismatched input '/'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoRefill.java:36:93 Unclosed scope
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoEat.java:69:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoEat.java:81:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoTool.java:33:5 Mismatched input '/'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoEat.java:87:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoSupply.java:45:5 Mismatched input '/'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoSupply.java:41:93 Unclosed scope
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoEat.java:105:5 Mismatched input '/'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoEat.java:101:87 Unclosed scope
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoShield.java:61:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoTotemModule.java:57:5 Mismatched input '/'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoShield.java:67:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoTotemModule.java:53:105 Unclosed scope
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoShield.java:91:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoTool.java:39:5 Mismatched input '/'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoWeapon.java:29:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoTool.java:47:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoWeapon.java:35:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoWeapon.java:57:5 Mismatched input '/'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoWeapon.java:53:87 Unclosed scope
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoShield.java:97:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/BowAimbot.java:82:5 Mismatched input ')'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/BowAimbot.java:91:5 Extraneous input ';'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/BowAimbot.java:102:6 Mismatched input '+'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/BowAimbot.java:111:6 Mismatched input '+'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoTool.java:53:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/Dodge.java:73:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/Dodge.java:83:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/Dodge.java:93:5 Extraneous input ';'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/DurabilityWarning.java:43:5 Mismatched input '/'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoTool.java:68:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/DurabilityWarning.java:76:5 Mismatched input '/'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoTool.java:35:113 Unclosed scope
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/AutoTool.java:28:25 Unclosed scope
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/DurabilityWarning.java:72:87 Unclosed scope
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/DurabilityWarning.java:39:92 Unclosed scope
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/CombatAssist.java:38:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/FireballAssist.java:34:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/FireballAssist.java:40:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/FireballAssist.java:64:5 Extraneous input ';'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/FireballAssist.java:77:6 Mismatched input '+'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/FakeLag.java:11:17 Unclosed scope
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/CombatAssist.java:44:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/CombatAssist.java:51:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/Freecam.java:41:5 Extraneous input ';'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/Freecam.java:50:5 Extraneous input ';'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/Freecam.java:59:5 Mismatched input '/'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/Freecam.java:55:102 Unclosed scope
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/CombatAssist.java:57:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/InstaHouse.java:38:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/InstaHouse.java:44:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/InstaHouse.java:46:3 Unmatched scope closer
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/InstaHouse.java:48:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/InvMove.java:41:5 Extraneous input ','
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/Killaura.java:149:5 Mismatched input ')'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/Killaura.java:158:5 Extraneous input ';'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/CombatAssist.java:156:5 Mismatched input ')'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/Killaura.java:170:6 Mismatched input '+'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/CombatAssist.java:165:5 Extraneous input ';'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/Killaura.java:179:6 Mismatched input '+'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/CombatAssist.java:193:6 Mismatched input '+'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/InvMove.java:47:5 Extraneous input ','
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitAutoClicker.java:33:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/InvMove.java:52:5 Extraneous input ','
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitAutoClicker.java:39:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/InvMove.java:57:5 Extraneous input ','
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/InvMove.java:65:5 Extraneous input ','
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitAutoClicker.java:92:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitAutoClicker.java:98:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitAutoClicker.java:108:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/CombatAssist.java:200:6 Mismatched input '+'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitAutoClicker.java:114:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LavaEvader.java:51:5 Mismatched input '/'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LavaEvader.java:47:73 Unclosed scope
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitWTap.java:33:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitScaffold.java:28:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitWTap.java:39:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitWTap.java:70:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitAutoRod.java:79:5 Mismatched input '/'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitAutoRod.java:75:73 Unclosed scope
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitAutoPot.java:45:5 Extraneous input ';'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitScaffold.java:47:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitScaffold.java:63:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/NinjaBridge.java:32:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitScaffold.java:78:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitScaffold.java:80:3 Unmatched scope closer
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitScaffold.java:82:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitScaffold.java:84:3 Unmatched scope closer
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitScaffold.java:86:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitAutoPot.java:72:12 Mismatched input 'f'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitScaffold.java:97:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/NinjaBridge.java:48:12 Mismatched input 'f'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitAutoPot.java:81:6 Mismatched input '+'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/NinjaBridge.java:58:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/NinjaBridge.java:79:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitScaffold.java:117:12 Mismatched input 'f'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitScaffold.java:127:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/NinjaBridge.java:104:5 Mismatched input ')'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/NinjaBridge.java:114:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitScaffold.java:146:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitScaffold.java:160:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitAutoPot.java:115:6 Mismatched input '-'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/NinjaBridge.java:133:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/NinjaBridge.java:142:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitAutoPot.java:131:5 Mismatched input '/'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/NinjaBridge.java:164:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitAutoPot.java:163:5 Mismatched input '/'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitAutoPot.java:177:5 Mismatched input '/'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitAutoPot.java:173:87 Unclosed scope
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitAutoPot.java:159:87 Unclosed scope
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/LegitAutoPot.java:127:90 Unclosed scope
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/PerfectCrit.java:25:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/PerfectCrit.java:31:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/SlotRotation.java:40:5 Mismatched input '/'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/SmartTorch.java:63:5 Mismatched input '/'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/SmartTorch.java:59:73 Unclosed scope
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/SlotRotation.java:46:5 Mismatched input '/'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/SlotRotation.java:35:25 Unclosed scope
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/WorldRender.java:66:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/WorldRender.java:74:5 Mismatched input '.'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/utils/PlayerUtils.java:15:5 Extraneous input ';'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/WorldRender.java:181:5 Extraneous input ';'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/WorldRender.java:190:5 Extraneous input ';'
+    file:///home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/src/main/java/com/ersin/legitbridge/module/impl/WorldRender.java:333:5 Extraneous input ';'
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 1s
+2 actionable tasks: 1 executed, 1 up-to-date
+Configuration cache entry reused.

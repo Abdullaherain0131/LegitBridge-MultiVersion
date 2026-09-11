@@ -1,0 +1,28 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.ersin.legitbridge.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [],
+  "client": [
+    "MixinMinecraftClientFastPlace",
+    "MixinEntitySafeWalk",
+    "MixinMinecraftClientFastClick",
+    "MixinChatHud",
+    "MixinClientPlayerInteractionManager",
+    "MixinMouse",
+    "MixinParticleManager",
+    "ClientPlayerInteractionManagerAccessor",
+    "MinecraftClientAccessor",
+    "MixinClientConnection",
+    "MixinEntityHitbox",
+    "MixinGameRenderer",
+    "MixinInGameOverlayRenderer",
+    "MixinEntity",
+    "MixinClientPlayNetworkHandler",
+    "MixinEntityRenderDispatcher"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

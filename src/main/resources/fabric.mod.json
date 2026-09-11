@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "${id}",
+  "version": "${mod_version}",
+  "name": "${name}",
+  "description": "Legit bridge assistant with safe walk and randomized fast place.",
+  "authors": [
+    "Abdullah Asım Ersin"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/legitbridge/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.ersin.legitbridge.LegitBridgeMod"
+    ]
+  },
+  "mixins": [
+    "legitbridge.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": "${minecraft}"
+  }
+}

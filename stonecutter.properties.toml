@@ -1,0 +1,20 @@
+# See https://stonecutter.kikugie.dev/wiki/config/properties#centralized-properties
+mod.id = "legitbridge"
+mod.name = "LegitBridge"
+mod.group = "com.ersin"
+mod.version = "7.0.0"
+
+deps.fabric_loader = "0.14.21" # 0.14.21 works for both 1.16.5 and 1.20.1 roughly, but we can set per version if needed. Actually we can just leave the defaults or set generic loom.
+loomx.loom_version = "1.17-SNAPSHOT"
+
+["1.16.5"]
+mod.mc_compat = "1.16.5"
+mod.mc_releases = ["1.16.5"]
+deps.fabric_api = "0.42.0+1.16"
+deps.yarn = "1.16.5+build.10"
+
+["1.20.1"]
+mod.mc_compat = "1.20.1"
+mod.mc_releases = ["1.20.1"]
+deps.fabric_api = "0.92.2+1.20.1"
+deps.yarn = "1.20.1+build.10"

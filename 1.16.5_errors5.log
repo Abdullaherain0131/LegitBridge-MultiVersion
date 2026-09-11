@@ -1,0 +1,277 @@
+Reusing configuration cache.
+> Task :1.16.5:stonecutterPrepare
+> Task :1.16.5:stonecutterGenerate
+
+> Task :1.16.5:compileJava
+/home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/versions/1.16.5/build/generated/stonecutter/main/java/com/ersin/legitbridge/mixin/MixinEntity.java:40: error: cannot find symbol
+            cir.setReturnValue("Player" + ((Entity)(Object)this).getId());
+                                                                ^
+  symbol:   method getId()
+  location: class net.minecraft.entity.Entity
+/home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/versions/1.16.5/build/generated/stonecutter/main/java/com/ersin/legitbridge/mixin/MixinEntity.java:47: error: cannot find symbol
+            cir.setReturnValue(net.minecraft.text.com.ersin.legitbridge.utils.VersionHelper.literalText("Player" + ((Entity)(Object)this).getId()));
+                                                                                                                                         ^
+  symbol:   method getId()
+  location: class net.minecraft.entity.Entity
+/home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/versions/1.16.5/build/generated/stonecutter/main/java/com/ersin/legitbridge/mixin/MixinEntity.java:47: error: package net.minecraft.text.com.ersin.legitbridge.utils does not exist
+            cir.setReturnValue(net.minecraft.text.com.ersin.legitbridge.utils.VersionHelper.literalText("Player" + ((Entity)(Object)this).getId()));
+                                                                             ^
+/home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/versions/1.16.5/build/generated/stonecutter/main/java/com/ersin/legitbridge/mixin/MixinClientPlayNetworkHandler.java:24: error: cannot find symbol
+            if (client.player != null && packet.getId() == client.player.getId()) {
+                                                                        ^
+  symbol:   method getId()
+  location: variable player of type net.minecraft.client.network.ClientPlayerEntity
+/home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/versions/1.16.5/build/generated/stonecutter/main/java/com/ersin/legitbridge/gui/ModConfigScreen.java:266: error: cannot find symbol
+                this.com.ersin.legitbridge.utils.VersionHelper.setScreen(client, null);;
+                    ^
+  symbol: variable com
+/home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/versions/1.16.5/build/generated/stonecutter/main/java/com/ersin/legitbridge/gui/ModConfigScreen.java:386: error: cannot find symbol
+        ((net.minecraft.client.gui.DrawContext)context).fillGradient(0, 0, this.width, this.height, 0xD0000000, 0xF0000000);
+                                  ^
+  symbol:   class DrawContext
+  location: package net.minecraft.client.gui
+/home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/versions/1.16.5/build/generated/stonecutter/main/java/com/ersin/legitbridge/gui/ModConfigScreen.java:423: error: cannot find symbol
+            blockInputField.setY(startY + gap * 11 + 4 - (int) scrollCurrent);
+                           ^
+  symbol:   method setY(int)
+  location: variable blockInputField of type net.minecraft.client.gui.widget.TextFieldWidget
+/home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/versions/1.16.5/build/generated/stonecutter/main/java/com/ersin/legitbridge/gui/ModConfigScreen.java:430: error: cannot find symbol
+            RenderUtils.drawTextWithShadow(context, this.textRenderer, "Bulunacak Blok (Örn: minecraft:diamond_ore):", blockInputField.getX(), blockInputField.getY() - 12, 0xAAAAAA);
+                                                                                                                                      ^
+  symbol:   method getX()
+  location: variable blockInputField of type net.minecraft.client.gui.widget.TextFieldWidget
+/home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/versions/1.16.5/build/generated/stonecutter/main/java/com/ersin/legitbridge/gui/ModConfigScreen.java:430: error: cannot find symbol
+            RenderUtils.drawTextWithShadow(context, this.textRenderer, "Bulunacak Blok (Örn: minecraft:diamond_ore):", blockInputField.getX(), blockInputField.getY() - 12, 0xAAAAAA);
+                                                                                                                                                              ^
+  symbol:   method getY()
+  location: variable blockInputField of type net.minecraft.client.gui.widget.TextFieldWidget
+/home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/versions/1.16.5/build/generated/stonecutter/main/java/com/ersin/legitbridge/gui/ModConfigScreen.java:532: error: cannot find symbol
+                RenderUtils.fill(context, this.getX(), this.getY() + this.height - 2, this.getX() + this.width, this.getY() + this.height, getThemeColorHex());
+                                              ^
+  symbol: method getX()
+/home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/versions/1.16.5/build/generated/stonecutter/main/java/com/ersin/legitbridge/gui/ModConfigScreen.java:532: error: cannot find symbol
+                RenderUtils.fill(context, this.getX(), this.getY() + this.height - 2, this.getX() + this.width, this.getY() + this.height, getThemeColorHex());
+                                                           ^
+  symbol: method getY()
+/home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/versions/1.16.5/build/generated/stonecutter/main/java/com/ersin/legitbridge/gui/ModConfigScreen.java:532: error: cannot find symbol
+                RenderUtils.fill(context, this.getX(), this.getY() + this.height - 2, this.getX() + this.width, this.getY() + this.height, getThemeColorHex());
+                                                                                          ^
+  symbol: method getX()
+/home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/versions/1.16.5/build/generated/stonecutter/main/java/com/ersin/legitbridge/gui/ModConfigScreen.java:532: error: cannot find symbol
+                RenderUtils.fill(context, this.getX(), this.getY() + this.height - 2, this.getX() + this.width, this.getY() + this.height, getThemeColorHex());
+                                                                                                                    ^
+  symbol: method getY()
+/home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/versions/1.16.5/build/generated/stonecutter/main/java/com/ersin/legitbridge/gui/ModConfigScreen.java:535: error: cannot find symbol
+                int cx = this.getX() + this.width / 2;
+                             ^
+  symbol: method getX()
+/home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/versions/1.16.5/build/generated/stonecutter/main/java/com/ersin/legitbridge/gui/ModConfigScreen.java:536: error: cannot find symbol
+                RenderUtils.fill(context, cx - hw, this.getY() + this.height - 1, cx + hw, this.getY() + this.height, 0xFF777777);
+                                                       ^
+  symbol: method getY()
+/home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/versions/1.16.5/build/generated/stonecutter/main/java/com/ersin/legitbridge/gui/ModConfigScreen.java:536: error: cannot find symbol
+                RenderUtils.fill(context, cx - hw, this.getY() + this.height - 1, cx + hw, this.getY() + this.height, 0xFF777777);
+                                                                                               ^
+  symbol: method getY()
+/home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/versions/1.16.5/build/generated/stonecutter/main/java/com/ersin/legitbridge/gui/ModConfigScreen.java:539: error: cannot find symbol
+            RenderUtils.drawCenteredText(context, MinecraftClient.getInstance().textRenderer, this.getMessage().getString(), this.getX() + this.width / 2, this.getY() + (this.height - 8) / 2, color);
+                                                                                                                                 ^
+  symbol: method getX()
+/home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/versions/1.16.5/build/generated/stonecutter/main/java/com/ersin/legitbridge/gui/ModConfigScreen.java:539: error: cannot find symbol
+            RenderUtils.drawCenteredText(context, MinecraftClient.getInstance().textRenderer, this.getMessage().getString(), this.getX() + this.width / 2, this.getY() + (this.height - 8) / 2, color);
+                                                                                                                                                               ^
+  symbol: method getY()
+/home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/versions/1.16.5/build/generated/stonecutter/main/java/com/ersin/legitbridge/gui/ModGuideScreen.java:36: error: package net.minecraft.text.com.ersin.legitbridge.utils does not exist
+        super(net.minecraft.text.com.ersin.legitbridge.utils.VersionHelper.literalText("LegitBridge Kullanım Rehberi"));
+                                                            ^
+/home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/versions/1.16.5/build/generated/stonecutter/main/java/com/ersin/legitbridge/gui/ModGuideScreen.java:47: error: package net.minecraft.text.com.ersin.legitbridge.utils does not exist
+        this.addDrawableChild(net.minecraft.client.gui.widget.ButtonWidget.builder(net.minecraft.text.com.ersin.legitbridge.utils.VersionHelper.literalText("← Önceki"), button -> {
+                                                                                                                                 ^
+/home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/versions/1.16.5/build/generated/stonecutter/main/java/com/ersin/legitbridge/gui/ModGuideScreen.java:57: error: package net.minecraft.text.com.ersin.legitbridge.utils does not exist
+        this.addDrawableChild(net.minecraft.client.gui.widget.ButtonWidget.builder(net.minecraft.text.com.ersin.legitbridge.utils.VersionHelper.literalText("§cAna Menü"), button -> {
+                                                                                                                                 ^
+/home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/versions/1.16.5/build/generated/stonecutter/main/java/com/ersin/legitbridge/gui/ModGuideScreen.java:60: error: cannot find symbol
+                this.com.ersin.legitbridge.utils.VersionHelper.setScreen(client, this.parent);;
+                    ^
+  symbol: variable com
+/home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/versions/1.16.5/build/generated/stonecutter/main/java/com/ersin/legitbridge/gui/ModGuideScreen.java:67: error: package net.minecraft.text.com.ersin.legitbridge.utils does not exist
+        this.addDrawableChild(net.minecraft.client.gui.widget.ButtonWidget.builder(net.minecraft.text.com.ersin.legitbridge.utils.VersionHelper.literalText("Sonraki →"), button -> {
+                                                                                                                                 ^
+/home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/versions/1.16.5/build/generated/stonecutter/main/java/com/ersin/legitbridge/module/impl/Freecam.java:65: error: cannot find symbol
+                client.world.removeEntity(-1000, net.minecraft.entity.Entity.RemovalReason.DISCARDED);;
+                                                                            ^
+  symbol:   variable RemovalReason
+  location: class net.minecraft.entity.Entity
+/home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/versions/1.16.5/build/generated/stonecutter/main/java/com/ersin/legitbridge/module/impl/Fullbright.java:22: error: cannot find symbol
+            originalGamma = client.options.getGamma().getValue();
+                                          ^
+  symbol:   method getGamma()
+  location: variable options of type net.minecraft.client.option.GameOptions
+/home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/versions/1.16.5/build/generated/stonecutter/main/java/com/ersin/legitbridge/module/impl/Fullbright.java:30: error: cannot find symbol
+                        client.options.getGamma().setValue(originalGamma != -1 ? originalGamma : 1.0);
+                                      ^
+  symbol:   method getGamma()
+  location: variable options of type net.minecraft.client.option.GameOptions
+/home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/versions/1.16.5/build/generated/stonecutter/main/java/com/ersin/legitbridge/module/impl/Fullbright.java:34: error: cannot find symbol
+            if (client.options.getGamma().getValue() < 100.0) {
+                              ^
+  symbol:   method getGamma()
+  location: variable options of type net.minecraft.client.option.GameOptions
+/home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/versions/1.16.5/build/generated/stonecutter/main/java/com/ersin/legitbridge/module/impl/StructureFinder.java:72: error: package net.minecraft.registry.Registries does not exist
+                            Block targetBlock = net.minecraft.registry.Registries.BLOCK.get(new Identifier(targetId.trim()));
+                                                                                 ^
+/home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/versions/1.16.5/build/generated/stonecutter/main/java/com/ersin/legitbridge/module/impl/StructureFinder.java:73: error: package net.minecraft.registry.Registries does not exist
+                            if (targetBlock != net.minecraft.registry.Registries.BLOCK.get(net.minecraft.registry.Registries.BLOCK.getDefaultId())) { // Ensure block exists
+                                                                                                                            ^
+/home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/versions/1.16.5/build/generated/stonecutter/main/java/com/ersin/legitbridge/module/impl/StructureFinder.java:73: error: package net.minecraft.registry.Registries does not exist
+                            if (targetBlock != net.minecraft.registry.Registries.BLOCK.get(net.minecraft.registry.Registries.BLOCK.getDefaultId())) { // Ensure block exists
+                                                                                ^
+/home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/versions/1.16.5/build/generated/stonecutter/main/java/com/ersin/legitbridge/module/impl/WorldRender.java:614: error: cannot find symbol
+        buffer.begin(net.minecraft.client.render.VertexFormat.DrawMode.QUADS, net.minecraft.client.render.VertexFormats.POSITION_COLOR); // GL_QUADS
+                                                             ^
+  symbol:   variable DrawMode
+  location: class net.minecraft.client.render.VertexFormat
+/home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/versions/1.16.5/build/generated/stonecutter/main/java/com/ersin/legitbridge/module/impl/LavaEvader.java:38: error: method interactItem in class net.minecraft.client.network.ClientPlayerInteractionManager cannot be applied to given types;
+                    client.interactionManager.interactItem(client.player, Hand.MAIN_HAND);
+                                             ^
+  required: net.minecraft.entity.player.PlayerEntity,net.minecraft.world.World,net.minecraft.util.Hand
+  found: net.minecraft.client.network.ClientPlayerEntity,net.minecraft.util.Hand
+  reason: actual and formal argument lists differ in length
+/home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/versions/1.16.5/build/generated/stonecutter/main/java/com/ersin/legitbridge/module/impl/InvMove.java:39: error: cannot find symbol
+            client.options.backKey,
+                          ^
+  symbol:   variable backKey
+  location: variable options of type net.minecraft.client.option.GameOptions
+/home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/versions/1.16.5/build/generated/stonecutter/main/java/com/ersin/legitbridge/module/impl/InvMove.java:40: error: cannot find symbol
+            client.options.leftKey,
+                          ^
+  symbol:   variable leftKey
+  location: variable options of type net.minecraft.client.option.GameOptions
+/home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/versions/1.16.5/build/generated/stonecutter/main/java/com/ersin/legitbridge/module/impl/InvMove.java:41: error: cannot find symbol
+            client.options.rightKey,
+                          ^
+  symbol:   variable rightKey
+  location: variable options of type net.minecraft.client.option.GameOptions
+/home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/versions/1.16.5/build/generated/stonecutter/main/java/com/ersin/legitbridge/module/impl/LegitAutoClicker.java:80: error: cannot find symbol
+            client.options.attackKey.setPressed(true);
+                          ^
+  symbol:   variable attackKey
+  location: variable options of type net.minecraft.client.option.GameOptions
+/home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/versions/1.16.5/build/generated/stonecutter/main/java/com/ersin/legitbridge/module/impl/LegitAutoClicker.java:88: error: cannot find symbol
+            net.minecraft.client.option.KeyBinding.onKeyPressed(client.options.attackKey.getDefaultKey());
+                                                                              ^
+  symbol:   variable attackKey
+  location: variable options of type net.minecraft.client.option.GameOptions
+/home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/versions/1.16.5/build/generated/stonecutter/main/java/com/ersin/legitbridge/module/impl/LegitWTap.java:58: error: cannot find symbol
+                    if (client.options.forwardKey.isPressed()) {
+                                      ^
+  symbol:   variable forwardKey
+  location: variable options of type net.minecraft.client.option.GameOptions
+/home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/versions/1.16.5/build/generated/stonecutter/main/java/com/ersin/legitbridge/module/impl/LegitAutoPot.java:52: error: method interactItem in class net.minecraft.client.network.ClientPlayerInteractionManager cannot be applied to given types;
+                            client.interactionManager.interactItem(client.player, Hand.MAIN_HAND);
+                                                     ^
+  required: net.minecraft.entity.player.PlayerEntity,net.minecraft.world.World,net.minecraft.util.Hand
+  found: net.minecraft.client.network.ClientPlayerEntity,net.minecraft.util.Hand
+  reason: actual and formal argument lists differ in length
+/home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/versions/1.16.5/build/generated/stonecutter/main/java/com/ersin/legitbridge/module/impl/LegitAutoPot.java:82: error: method interactItem in class net.minecraft.client.network.ClientPlayerInteractionManager cannot be applied to given types;
+                client.interactionManager.interactItem(client.player, Hand.MAIN_HAND);
+                                         ^
+  required: net.minecraft.entity.player.PlayerEntity,net.minecraft.world.World,net.minecraft.util.Hand
+  found: net.minecraft.client.network.ClientPlayerEntity,net.minecraft.util.Hand
+  reason: actual and formal argument lists differ in length
+/home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/versions/1.16.5/build/generated/stonecutter/main/java/com/ersin/legitbridge/module/impl/LegitAutoRod.java:51: error: method interactItem in class net.minecraft.client.network.ClientPlayerInteractionManager cannot be applied to given types;
+                client.interactionManager.interactItem(client.player, Hand.MAIN_HAND);
+                                         ^
+  required: net.minecraft.entity.player.PlayerEntity,net.minecraft.world.World,net.minecraft.util.Hand
+  found: net.minecraft.client.network.ClientPlayerEntity,net.minecraft.util.Hand
+  reason: actual and formal argument lists differ in length
+/home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/versions/1.16.5/build/generated/stonecutter/main/java/com/ersin/legitbridge/module/impl/LegitAutoRod.java:58: error: method interactItem in class net.minecraft.client.network.ClientPlayerInteractionManager cannot be applied to given types;
+                client.interactionManager.interactItem(client.player, Hand.MAIN_HAND);
+                                         ^
+  required: net.minecraft.entity.player.PlayerEntity,net.minecraft.world.World,net.minecraft.util.Hand
+  found: net.minecraft.client.network.ClientPlayerEntity,net.minecraft.util.Hand
+  reason: actual and formal argument lists differ in length
+/home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/versions/1.16.5/build/generated/stonecutter/main/java/com/ersin/legitbridge/module/impl/Step.java:18: error: cannot find symbol
+            client.player.setStepHeight(stepHeight);
+                         ^
+  symbol:   method setStepHeight(float)
+  location: variable player of type net.minecraft.client.network.ClientPlayerEntity
+/home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/versions/1.16.5/build/generated/stonecutter/main/java/com/ersin/legitbridge/module/impl/Step.java:26: error: cannot find symbol
+            client.player.setStepHeight(previousStepHeight);
+                         ^
+  symbol:   method setStepHeight(float)
+  location: variable player of type net.minecraft.client.network.ClientPlayerEntity
+/home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/versions/1.16.5/build/generated/stonecutter/main/java/com/ersin/legitbridge/module/impl/NoFall.java:17: error: cannot find symbol
+            client.getNetworkHandler().sendPacket(new PlayerMoveC2SPacket.OnGroundOnly(true));
+                                                                         ^
+  symbol:   class OnGroundOnly
+  location: class net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket
+/home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/versions/1.16.5/build/generated/stonecutter/main/java/com/ersin/legitbridge/module/impl/Derp.java:31: error: cannot find symbol
+            boolean changesLook = p instanceof net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket.LookAndOnGround || p instanceof net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket.Full;
+                                                                                                        ^
+  symbol:   class LookAndOnGround
+  location: class net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket
+/home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/versions/1.16.5/build/generated/stonecutter/main/java/com/ersin/legitbridge/module/impl/Derp.java:31: error: cannot find symbol
+            boolean changesLook = p instanceof net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket.LookAndOnGround || p instanceof net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket.Full;
+                                                                                                                                                                                                  ^
+  symbol:   class Full
+  location: class net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket
+/home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/versions/1.16.5/build/generated/stonecutter/main/java/com/ersin/legitbridge/module/impl/Derp.java:32: error: cannot find symbol
+            boolean changesPosition = p instanceof net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket.PositionAndOnGround || p instanceof net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket.Full;
+                                                                                                            ^
+  symbol:   class PositionAndOnGround
+  location: class net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket
+/home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/versions/1.16.5/build/generated/stonecutter/main/java/com/ersin/legitbridge/module/impl/Derp.java:32: error: cannot find symbol
+            boolean changesPosition = p instanceof net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket.PositionAndOnGround || p instanceof net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket.Full;
+                                                                                                                                                                                                          ^
+  symbol:   class Full
+  location: class net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket
+/home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/versions/1.16.5/build/generated/stonecutter/main/java/com/ersin/legitbridge/module/impl/Derp.java:45: error: cannot find symbol
+                    newPacket = new PlayerMoveC2SPacket.Full(x, y, z, newYaw, newPitch, p.isOnGround());
+                                                       ^
+  symbol:   class Full
+  location: class net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket
+/home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/versions/1.16.5/build/generated/stonecutter/main/java/com/ersin/legitbridge/module/impl/Derp.java:47: error: cannot find symbol
+                    newPacket = new PlayerMoveC2SPacket.LookAndOnGround(newYaw, newPitch, p.isOnGround());
+                                                       ^
+  symbol:   class LookAndOnGround
+  location: class net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket
+/home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/versions/1.16.5/build/generated/stonecutter/main/java/com/ersin/legitbridge/module/impl/InstaHouse.java:49: error: package net.minecraft.text.com.ersin.legitbridge.utils does not exist
+                client.player.sendMessage(net.minecraft.text.com.ersin.legitbridge.utils.VersionHelper.literalText("§c[LegitBridge] InstaHouse: Blok Bitti!"), true);
+                                                                                        ^
+/home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/versions/1.16.5/build/generated/stonecutter/main/java/com/ersin/legitbridge/module/impl/InstaHouse.java:57: error: package net.minecraft.text.com.ersin.legitbridge.utils does not exist
+                    client.player.sendMessage(net.minecraft.text.com.ersin.legitbridge.utils.VersionHelper.literalText("§a[LegitBridge] InstaHouse: Ev Tamamlandı!"), true);
+                                                                                            ^
+/home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/versions/1.16.5/build/generated/stonecutter/main/java/com/ersin/legitbridge/module/impl/InstaHouse.java:103: error: package net.minecraft.text.com.ersin.legitbridge.utils does not exist
+        client.player.sendMessage(net.minecraft.text.com.ersin.legitbridge.utils.VersionHelper.literalText("§a[LegitBridge] InstaHouse: Ev inşa ediliyor..."), true);
+                                                                                ^
+/home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/versions/1.16.5/build/generated/stonecutter/main/java/com/ersin/legitbridge/utils/RotationUtil.java:18: error: cannot find symbol
+        float f = (float) (client.options.getMouseSensitivity().getValue().floatValue()) * 0.6F + 0.2F;
+                                         ^
+  symbol:   method getMouseSensitivity()
+  location: variable options of type net.minecraft.client.option.GameOptions
+55 errors
+
+> Task :1.16.5:compileJava FAILED
+
+[Incubating] Problems report is available at: file:///home/ersin/Masa%C3%BCst%C3%BC/PROJELERIM/LegitBridge-MultiVersion/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':1.16.5:compileJava' (registered by plugin class 'org.gradle.api.plugins.JavaBasePlugin').
+> Compilation failed; see the compiler output below.
+  /home/ersin/Masaüstü/PROJELERIM/LegitBridge-MultiVersion/versions/1.16.5/build/generated/stonecutter/main/java/com/ersin/legitbridge/mixin/MixinEntity.java:40: error: cannot find symbol
+              cir.setReturnValue("Player" + ((Entity)(Object)this).getId());
+                                                                  ^
+    symbol:   method getId()
+    location: class net.minecraft.entity.Entity
+  55 errors
+
+* Try:
+> Check your code and dependencies to fix the compilation error(s)
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+
+BUILD FAILED in 10s
+3 actionable tasks: 3 executed
+Configuration cache entry reused.
