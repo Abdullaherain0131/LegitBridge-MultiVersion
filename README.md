@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/banner.jpg" alt="LegitBooster Banner">
+  <img src="assets/banner.jpg" alt="LegitBooster Banner" width="600">
 </div>
 
 <h1 align="center">LegitBooster</h1>

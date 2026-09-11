@@ -1,11 +1,11 @@
 <div align="center">
-  <img src="assets/banner.jpg" alt="LegitBooster Banner">
+  <img src="assets/banner.jpg" alt="LegitBooster Banner" width="600">
 </div>
 
 <h1 align="center">LegitBooster</h1>
 
 <p align="center">
-  <a href="README.md">🇺🇸 English</a> | <a href="README-tr.md">🇹🇷 Türkçe</a> | <a href="WIKI.md">📖 Wiki</a>
+  <a href="README.md">🇺🇸 English</a> | <a href="README-tr.md">🇹🇷 Türkçe</a> | <a href="WIKI-tr.md">📖 Wiki</a>
 </p>
 
 <div align="center">
