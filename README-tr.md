@@ -3,7 +3,7 @@
 <div align="center">
   <img src="https://img.shields.io/badge/Minecraft-1.16.5%20%7C%201.20.1-brightgreen?logo=minecraft" alt="Minecraft Version">
   <img src="https://img.shields.io/badge/API-Fabric-orange" alt="Fabric">
-  <img src="https://img.shields.io/github/license/Abdullaherain0131/LegitBooster-MultiVersion" alt="License">
+  <img src="https://img.shields.io/github/license/Abdullaherain0131/LegitBridge-MultiVersion" alt="License">
 </div>
 
 <p align="center">
@@ -42,8 +42,8 @@
 Bu proje tek bir kod tabanından birden fazla Minecraft sürümünü desteklemek için [Stonecutter](https://stonecutter.kikugie.dev/) altyapısını kullanır!
 
 ```bash
-git clone https://github.com/Abdullaherain0131/LegitBooster-MultiVersion.git
-cd LegitBooster-MultiVersion
+git clone https://github.com/Abdullaherain0131/LegitBridge-MultiVersion.git
+cd LegitBridge-MultiVersion
 # 1.16.5 için derle
 ./gradlew :1.16.5:build
 # Veya 1.20.1 için derle
@@ -52,7 +52,7 @@ cd LegitBooster-MultiVersion
 Derlenen mod dosyası `versions/<version>/build/libs` klasöründe bulunabilir.
 
 ## 📜 Lisans
-Bu proje [MIT Lisansı](LICENSE) altında lisanslanmıştır. Daha fazla detay için dosyayı inceleyebilirsiniz.
+Bu proje [CC0 1.0 Universal (Public Domain)](LICENSE) altında lisanslanmıştır. Daha fazla detay için dosyayı inceleyebilirsiniz.
 
 ---
 *English documentation is available at [README.md](README.md).*

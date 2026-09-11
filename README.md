@@ -3,7 +3,7 @@
 <div align="center">
   <img src="https://img.shields.io/badge/Minecraft-1.16.5%20%7C%201.20.1-brightgreen?logo=minecraft" alt="Minecraft Version">
   <img src="https://img.shields.io/badge/API-Fabric-orange" alt="Fabric">
-  <img src="https://img.shields.io/github/license/Abdullaherain0131/LegitBooster-MultiVersion" alt="License">
+  <img src="https://img.shields.io/github/license/Abdullaherain0131/LegitBridge-MultiVersion" alt="License">
 </div>
 
 <p align="center">
@@ -42,8 +42,8 @@
 This project uses [Stonecutter](https://stonecutter.kikugie.dev/) to support multiple Minecraft versions from a single codebase!
 
 ```bash
-git clone https://github.com/Abdullaherain0131/LegitBooster-MultiVersion.git
-cd LegitBooster-MultiVersion
+git clone https://github.com/Abdullaherain0131/LegitBridge-MultiVersion.git
+cd LegitBridge-MultiVersion
 # Build for 1.16.5
 ./gradlew :1.16.5:build
 # Or build for 1.20.1
@@ -52,7 +52,7 @@ cd LegitBooster-MultiVersion
 The compiled jar will be available in `versions/<version>/build/libs`.
 
 ## 📜 License
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [CC0 1.0 Universal (Public Domain)](LICENSE).
 
 ---
 *For Turkish documentation, please check out [README-tr.md](README-tr.md).*
