@@ -32,7 +32,7 @@ Sıradan hile istemcilerinin (hacked client) aksine, LegitBooster ince detaylara
 ## ✨ Temel Özellikler
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00FF00&center=true&vCenter=true&width=435&lines=⚔️+Akilli+PvP+Destegi;🛡️+Otomatik+Savunma+%26+Corba;🚀+FPS+Arttirici+Motor;🏗️+Legit+Hizli+Kopru" alt="Features Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00FF00&center=true&vCenter=true&width=435&lines=Akilli+PvP+Destegi;Otomatik+Savunma+ve+Corba;FPS+Arttirici+Motor;Legit+Hizli+Kopru" alt="Features Typing SVG" />
 </p>
 
 - **⚔️ Gelişmiş PvP Araçları:** İnsansı Jitter tıklama (AutoClicker), rastgele atma gecikmelerine sahip AutoSoup ve daha fazlası.

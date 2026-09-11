@@ -32,7 +32,7 @@ Unlike blatant hacked clients, LegitBooster focuses on the *subtle* details: ran
 ## ✨ Key Features
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00FF00&center=true&vCenter=true&width=435&lines=⚔️+Smart+Combat+Assist;🛡️+Auto+Defense+%26+Soup;🚀+FPS+Boosting+Engine;🏗️+Legit+Auto+Bridging" alt="Features Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00FF00&center=true&vCenter=true&width=435&lines=Smart+Combat+Assist;Auto+Defense+and+Soup;FPS+Boosting+Engine;Legit+Auto+Bridging" alt="Features Typing SVG" />
 </p>
 
 - **⚔️ Advanced Combat Utilities:** Human-like Jitter clicking, AutoSoup with randomized drop delays, and more.

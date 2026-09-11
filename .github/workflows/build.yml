@@ -28,17 +28,8 @@ jobs:
     - name: Build 1.16.5
       run: ./gradlew :1.16.5:build
       
-    - name: Build 1.20.1
-      run: ./gradlew :1.20.1:build
-      
     - name: Upload 1.16.5 Artifact
       uses: actions/upload-artifact@v3
       with:
         name: LegitBooster-1.16.5
         path: versions/1.16.5/build/libs/legitbooster-*.jar
-        
-    - name: Upload 1.20.1 Artifact
-      uses: actions/upload-artifact@v3
-      with:
-        name: LegitBooster-1.20.1
-        path: versions/1.20.1/build/libs/legitbooster-*.jar
