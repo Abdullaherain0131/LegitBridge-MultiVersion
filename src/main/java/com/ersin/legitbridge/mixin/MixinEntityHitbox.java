@@ -20,7 +20,8 @@ public abstract class MixinEntityHitbox {
             Entity entity = (Entity) (Object) this;
             // Sadece oyuncuları büyüt (kendimiz hariç)
             if (entity instanceof net.minecraft.entity.player.PlayerEntity) {
-                if (entity.getUuid() != net.minecraft.client.MinecraftClient.getInstance().player.getUuid()) {
+                net.minecraft.client.network.ClientPlayerEntity clientPlayer = net.minecraft.client.MinecraftClient.getInstance().player;
+                if (clientPlayer != null && !entity.equals(clientPlayer)) {
                     Box originalBox = cir.getReturnValue();
                     // Hitbox'u her yöne 0.2 blok genişlet (çok abartmadan)
                     cir.setReturnValue(originalBox.expand(ModConfig.hitBoxExpanderSize));
