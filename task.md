@@ -1,0 +1,10 @@
+- [/] Create `Scaffold` module.
+  - [ ] Implement smooth rotation calculations towards target blocks.
+  - [ ] Implement packet interception in `onSendPacket` to apply the smooth rotations.
+  - [ ] Implement automatic block placement logic when Right-Click is held and crosshair is simulated over the block.
+- [ ] Register `Scaffold` in `ModuleManager`.
+- [ ] Add configuration settings (enabled, rotation speed) in `ModConfig`.
+- [ ] Update `ModConfigScreen` to include `Scaffold`.
+- [ ] Inject packet handling in `MixinClientConnection`.
+- [ ] Compile the mod for 1.16.5.
+- [ ] Copy the compiled `jar` to `~/.minecraft/mods/`.

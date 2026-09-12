@@ -49,6 +49,8 @@ public class ModConfig {
     public static boolean jumpBridge = true;
     public static boolean staircaseAssist = true;
     public static boolean legitScaffold = false;
+    public static boolean scaffold = false;
+    public static float scaffoldRotationSpeed = 20.0f;
 
     // Advanced Combat
     public static boolean combatAssist = false;

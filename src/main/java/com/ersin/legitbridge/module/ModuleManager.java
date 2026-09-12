@@ -50,6 +50,7 @@ public class ModuleManager {
         if (getModuleByName("JumpBridge") != null) getModuleByName("JumpBridge").setEnabled(com.ersin.legitbridge.config.ModConfig.jumpBridge);
         if (getModuleByName("JumpReset") != null) getModuleByName("JumpReset").setEnabled(com.ersin.legitbridge.config.ModConfig.jumpReset);
         if (getModuleByName("LegitScaffold") != null) getModuleByName("LegitScaffold").setEnabled(com.ersin.legitbridge.config.ModConfig.legitScaffold);
+        if (getModuleByName("Scaffold") != null) getModuleByName("Scaffold").setEnabled(com.ersin.legitbridge.config.ModConfig.scaffold);
         if (getModuleByName("NinjaBridge") != null) getModuleByName("NinjaBridge").setEnabled(com.ersin.legitbridge.config.ModConfig.ninjaBridge);
         if (getModuleByName("SlotRotation") != null) getModuleByName("SlotRotation").setEnabled(com.ersin.legitbridge.config.ModConfig.slotRotation);
         if (getModuleByName("StructureFinder") != null) getModuleByName("StructureFinder").setEnabled(com.ersin.legitbridge.config.ModConfig.showStructureFinder);

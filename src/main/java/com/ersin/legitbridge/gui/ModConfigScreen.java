@@ -167,6 +167,7 @@ public class ModConfigScreen extends Screen {
             this.addCustomButton(new ConfigButton(col1X, startY, buttonWidth, buttonHeight, "safeWalk", "SafeWalk", () -> ModConfig.safeWalk, () -> ModConfig.safeWalk = !ModConfig.safeWalk));
             this.addCustomButton(new ConfigButton(col1X, startY + gap, buttonWidth, buttonHeight, "jumpBridge", "Zıplama Destek", () -> ModConfig.jumpBridge, () -> ModConfig.jumpBridge = !ModConfig.jumpBridge));
             this.addCustomButton(new ConfigButton(col1X, startY + gap * 2, buttonWidth, buttonHeight, "legitScaffold", "Oto Köprü", () -> ModConfig.legitScaffold, () -> ModConfig.legitScaffold = !ModConfig.legitScaffold));
+            this.addCustomButton(new ConfigButton(col2X, startY + gap * 2, buttonWidth, buttonHeight, "scaffold", "Gerçek Oto Köprü (Scaffold)", () -> ModConfig.scaffold, () -> ModConfig.scaffold = !ModConfig.scaffold));
             this.addCustomButton(new ConfigButton(col1X, startY + gap * 3, buttonWidth, buttonHeight, "ninjaBridge", "Ninja Bridge", () -> ModConfig.ninjaBridge, () -> ModConfig.ninjaBridge = !ModConfig.ninjaBridge));
             this.addCustomButton(new ConfigButton(col1X, startY + gap * 4, buttonWidth, buttonHeight, "step", "Step (Örümcek)", () -> ModConfig.step, () -> ModConfig.step = !ModConfig.step));
             this.addCustomButton(new ConfigButton(col1X, startY + gap * 5, buttonWidth, buttonHeight, "fly", "Fly (Uçma)", () -> ModConfig.fly, () -> ModConfig.fly = !ModConfig.fly));

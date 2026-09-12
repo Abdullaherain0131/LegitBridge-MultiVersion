@@ -135,6 +135,7 @@ client.player.sendMessage(com.ersin.legitbridge.utils.VersionHelper.literalText(
         moduleManager.registerModule(new JumpBridge());
         moduleManager.registerModule(new JumpReset());
         moduleManager.registerModule(new LegitScaffold());
+        moduleManager.registerModule(new Scaffold());
         moduleManager.registerModule(new NinjaBridge());
         moduleManager.registerModule(new SlotRotation());
         moduleManager.registerModule(new StructureFinder());

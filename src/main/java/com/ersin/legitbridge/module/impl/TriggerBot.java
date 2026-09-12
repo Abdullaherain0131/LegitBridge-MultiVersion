@@ -41,12 +41,19 @@ public class TriggerBot extends Module {
 
                 if (distanceSq <= maxReach) {
                     if (Humanizer.shouldDropClick()) {
-                        return; // Miss click simulation
+                        triggerCooldown = 1; // Miss click, try again next tick maybe
+                        return; 
                     }
 
                     // En legit saldırı metodu: doğrudan oyunun kendi tıklama fonksiyonunu tetikliyoruz.
                     ((MinecraftClientAccessor)client).invokeDoAttack();
-                    triggerCooldown = Humanizer.getGaussianDelay(ModConfig.minFastClickDelay, ModConfig.maxFastClickDelay);
+                    
+                    // Delay'e tepki süresi (Reaction time) ekle
+                    int delay = Humanizer.getGaussianDelay(ModConfig.minFastClickDelay, ModConfig.maxFastClickDelay);
+                    if (Math.random() < 0.1) {
+                        delay += Humanizer.getGaussianDelay(2, 5); // %10 ihtimalle yavaş tıklama
+                    }
+                    triggerCooldown = delay;
                 }
             }
         }

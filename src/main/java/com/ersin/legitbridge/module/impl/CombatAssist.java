@@ -161,11 +161,15 @@ public class CombatAssist extends Module {
         }
 
         if (Math.abs(yawDiff) > 1.0f || ModConfig.autoLock) {
-            // Bezier vari kavis için yaw ve pitch hızlarını birbirinden hafif ayırıyoruz
-com.ersin.legitbridge.utils.VersionHelper.setYaw(client.player, com.ersin.legitbridge.utils.VersionHelper.getYaw(client.player) + yawDiff / smoothing);
+            // Anti-cheat (GCD) baypası: Mouse hareketlerini sensitivity ile oranla
+            float targetRawYaw = com.ersin.legitbridge.utils.VersionHelper.getYaw(client.player) + yawDiff / smoothing;
+            float safeYaw = com.ersin.legitbridge.utils.GCDFix.applyGCD(targetRawYaw, com.ersin.legitbridge.utils.VersionHelper.getYaw(client.player), client);
+            com.ersin.legitbridge.utils.VersionHelper.setYaw(client.player, safeYaw);
         }
         if (Math.abs(pitchDiff) > 1.0f || ModConfig.autoLock) {
-com.ersin.legitbridge.utils.VersionHelper.setPitch(client.player, com.ersin.legitbridge.utils.VersionHelper.getPitch(client.player) + pitchDiff / (smoothing * 0.9f));
+            float targetRawPitch = com.ersin.legitbridge.utils.VersionHelper.getPitch(client.player) + pitchDiff / (smoothing * 0.9f);
+            float safePitch = com.ersin.legitbridge.utils.GCDFix.applyGCD(targetRawPitch, com.ersin.legitbridge.utils.VersionHelper.getPitch(client.player), client);
+            com.ersin.legitbridge.utils.VersionHelper.setPitch(client.player, safePitch);
         }
     }
 }

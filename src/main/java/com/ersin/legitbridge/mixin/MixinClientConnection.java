@@ -44,5 +44,14 @@ public class MixinClientConnection {
                 return;
             }
         }
+        
+        // Scaffold spoofs the rotation
+        com.ersin.legitbridge.module.impl.Scaffold scaffold = (com.ersin.legitbridge.module.impl.Scaffold) LegitBoosterMod.moduleManager.getModuleByName("Scaffold");
+        if (scaffold != null && scaffold.isEnabled()) {
+            if (scaffold.onSendPacket(packet)) {
+                ci.cancel();
+                return;
+            }
+        }
     }
 }

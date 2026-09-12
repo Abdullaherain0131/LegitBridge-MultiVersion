@@ -63,12 +63,19 @@ public class LegitAutoClicker extends Module {
             baseDelayMax += (holdTicks / 50);
             
             // Rastgele duraksama (Spike/Drop): İnsanın parmağı bazen 1-2 tick atlar
-            if (random.nextInt(20) == 0) {
-                return Humanizer.getGaussianDelay(4, 7); // Ani duraksama
+            if (random.nextInt(15) == 0) { // Artırılmış hata ihtimali (Anti-Cheat Bypass)
+                return Humanizer.getGaussianDelay(4, 8); // Ani duraksama
             }
         }
         
-        return Humanizer.getGaussianDelay(baseDelayMin, Math.min(baseDelayMax, 6)); // Max 6 tick (3.3 CPS)'e kadar düşebilir
+        int delay = Humanizer.getGaussianDelay(baseDelayMin, Math.min(baseDelayMax, 6));
+        
+        // Bazen çok hızlı tıklamaları engelle (Mekanik mouse limitleri)
+        if (delay == 1 && random.nextBoolean()) {
+            delay = 2; 
+        }
+        
+        return delay;
     }
 
     private void doClick() {

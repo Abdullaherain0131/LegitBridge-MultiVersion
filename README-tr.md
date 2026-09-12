@@ -15,8 +15,8 @@
 <div align="center">
   <img src="https://img.shields.io/badge/Minecraft-1.16.5-brightgreen?logo=minecraft&style=for-the-badge" alt="Minecraft Version">
   <img src="https://img.shields.io/badge/API-Fabric-orange?logo=fabric&style=for-the-badge" alt="Fabric">
-  <a href="LICENSE"><img src="https://img.shields.io/github/license/Abdullaherain0131/LegitBridge-MultiVersion?style=for-the-badge&color=blue" alt="License"></a>
-  <img src="https://img.shields.io/github/actions/workflow/status/Abdullaherain0131/LegitBridge-MultiVersion/build.yml?branch=main&style=for-the-badge" alt="Build Status">
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/Abdullaherain0131/LegitBooster-MultiVersion?style=for-the-badge&color=blue" alt="License"></a>
+  <img src="https://img.shields.io/github/actions/workflow/status/Abdullaherain0131/LegitBooster-MultiVersion/build.yml?branch=main&style=for-the-badge" alt="Build Status">
 </div>
 
 <div align="center">
@@ -51,7 +51,7 @@ LegitBooster'ı kullanmaya başlamak inanılmaz derecede basittir! Modu kurmak i
 
 1. **Fabric Loader'ı İndirin:** Minecraft **1.16.5** için [Fabric Loader](https://fabricmc.net/use/)'ı kurun.
 2. **Fabric API'yi İndirin:** [Fabric API](https://modrinth.com/mod/fabric-api) (1.16.5) modunu indirin ve `mods` klasörünüze atın.
-3. **LegitBooster'ı İndirin:** Projenin [Sürümler (Releases) Sayfasına](https://github.com/Abdullaherain0131/LegitBridge-MultiVersion/releases) gidin ve en son `.jar` dosyasını indirin.
+3. **LegitBooster'ı İndirin:** Projenin [Sürümler (Releases) Sayfasına](https://github.com/Abdullaherain0131/LegitBooster-MultiVersion/releases) gidin ve en son `.jar` dosyasını indirin.
 4. **Modu Kurun:** İndirdiğiniz `legitbooster-1.16.5.jar` dosyasını Minecraft'ın içindeki `.minecraft/mods/` dizinine yerleştirin.
 5. **Oyuna Girin:** Minecraft Launcher'ı açıp kurduğunuz Fabric profilini seçerek oyunu başlatın.
 
@@ -70,7 +70,7 @@ LegitBooster "tak-çalıştır" mantığıyla tasarlanmıştır, ancak her şeyi
 ## 🤝 Katkıda Bulunma & Destek
 
 Topluluk katkılarını seviyoruz! Yeni bir modül için fikriniz varsa veya bir hata bulduysanız:
-- **[Issue Açın](https://github.com/Abdullaherain0131/LegitBridge-MultiVersion/issues)**: Hata bildirimleri veya özellik istekleri için.
+- **[Issue Açın](https://github.com/Abdullaherain0131/LegitBooster-MultiVersion/issues)**: Hata bildirimleri veya özellik istekleri için.
 - **Pull Request (PR) Gönderin**: Depoyu kendi hesabınıza çatallayın (fork) ve katkılarınızı bize gönderin.
 
 <div align="center">
